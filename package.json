@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "type": "module",
+  "version": "0.0.0",
+  "description": "Workspace root for fncve",
+  "scripts": {
+    "build": "pnpm --filter fncve build",
+    "test": "pnpm --filter fncve-tests test",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  },
+  "packageManager": "pnpm@10.17.0",
+  "engines": {
+    "node": ">=20"
+  }
+}
